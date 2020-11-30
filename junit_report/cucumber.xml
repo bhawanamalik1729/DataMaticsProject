@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="44.88427">
+<testcase classname="Five Day Weather forecast" name="Weather Forecast for valid city" time="10.723505">
+<system-out><![CDATA[Given Open the browser......................................................passed
+When Enter the URL..........................................................passed
+And enter valid "aberdeen"..................................................passed
+And Hit enter...............................................................passed
+Then User must successfully display five days Weather Forecast..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Five Day Weather forecast" name="Weather Forecast for valid city 2" time="8.848656">
+<system-out><![CDATA[Given Open the browser......................................................passed
+When Enter the URL..........................................................passed
+And enter valid "perth".....................................................passed
+And Hit enter...............................................................passed
+Then User must successfully display five days Weather Forecast..............passed
+]]></system-out>
+</testcase>
+<testcase classname="Five Day Weather forecast" name="Weather Forecast for invalid city." time="8.636074">
+<system-out><![CDATA[Given Browser is open.......................................................passed
+When User enter URL.........................................................passed
+And User enter invalid city.................................................passed
+And Hit on enter............................................................passed
+Then verify error message...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="3 hourly forecast" name="Select day, get 3 hourly forecast" time="8.565115">
+<system-out><![CDATA[Given User is on URL........................................................passed
+When User enter city name...................................................passed
+And Hit enter...............................................................passed
+And select day column.......................................................passed
+Then Display three hourly forecast on page..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="3 hourly forecast" name="Select day again, hide 3 hourly forecast" time="8.11092">
+<system-out><![CDATA[Given User is on browser....................................................passed
+When enter city name........................................................passed
+And click on day............................................................passed
+And again click on day......................................................passed
+Then hide 3 hourly forecast from page.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

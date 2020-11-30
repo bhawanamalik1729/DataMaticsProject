@@ -1,0 +1,396 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Weather Forecast for valid city",
+        "description": "",
+        "id": "five-day-weather-forecast;weather-forecast-for-valid-city;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7089835458,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "ForeCastDetails.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1548470384,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the URL",
+            "match": {
+              "location": "ForeCastDetails.enter_the_URL_http_localhost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1077166878,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter valid \"aberdeen\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "aberdeen",
+                  "offset": 13
+                }
+              ],
+              "location": "ForeCastDetails.enter_valid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 384874201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hit enter.",
+            "match": {
+              "location": "ForeCastDetails.hit_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 623158068,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User must successfully display five days Weather Forecast",
+            "match": {
+              "location": "ForeCastDetails.user_must_successfully_display_five_days_Weather_Forecast()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Weather Forecast for valid city",
+        "description": "",
+        "id": "five-day-weather-forecast;weather-forecast-for-valid-city;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5237549473,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open the browser",
+            "match": {
+              "location": "ForeCastDetails.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1498108321,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter the URL",
+            "match": {
+              "location": "ForeCastDetails.enter_the_URL_http_localhost()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1042159881,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter valid \"perth\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "perth",
+                  "offset": 13
+                }
+              ],
+              "location": "ForeCastDetails.enter_valid(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488646910,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hit enter.",
+            "match": {
+              "location": "ForeCastDetails.hit_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582190963,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User must successfully display five days Weather Forecast",
+            "match": {
+              "location": "ForeCastDetails.user_must_successfully_display_five_days_Weather_Forecast()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Weather Forecast for invalid city.",
+        "description": "",
+        "id": "five-day-weather-forecast;weather-forecast-for-invalid-city.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5157618328,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Browser is open",
+            "match": {
+              "location": "ForecastforInvalidCity.browser_is_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1570988151,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enter URL",
+            "match": {
+              "location": "ForecastforInvalidCity.user_enter_URL()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 967085932,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enter invalid city.",
+            "match": {
+              "location": "ForecastforInvalidCity.user_enter_invalid_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 177170578,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Hit on enter.",
+            "match": {
+              "location": "ForecastforInvalidCity.hit_on_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 763210597,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify error message.",
+            "match": {
+              "location": "ForecastforInvalidCity.verify_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Five Day Weather forecast",
+    "description": "",
+    "id": "five-day-weather-forecast",
+    "keyword": "Feature",
+    "uri": "ForecastDetails.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Select day, get 3 hourly forecast",
+        "description": "",
+        "id": "3-hourly-forecast;select-day,-get-3-hourly-forecast",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6244200175,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User is on URL",
+            "match": {
+              "location": "ForecastHourly.user_is_on_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1110173830,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User enter city name",
+            "match": {
+              "location": "ForecastHourly.user_enter_city_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 452660092,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hit enter",
+            "match": {
+              "location": "ForecastHourly.hit_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192997996,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select day column",
+            "match": {
+              "location": "ForecastHourly.select_day_column()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 565082415,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Display three hourly forecast on page.",
+            "match": {
+              "location": "ForecastHourly.display_three_hourly_forecast_on_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 9,
+        "name": "Select day again, hide 3 hourly forecast",
+        "description": "",
+        "id": "3-hourly-forecast;select-day-again,-hide-3-hourly-forecast",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5833456802,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User is on browser",
+            "match": {
+              "location": "ForecastHideHourly.user_is_on_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1494851691,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter city name.",
+            "match": {
+              "location": "ForecastHideHourly.enter_city_name()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131143140,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on day",
+            "match": {
+              "location": "ForecastHideHourly.click_on_day()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129245798,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "again click on day",
+            "match": {
+              "location": "ForecastHideHourly.again_click_on_day()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522222122,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "hide 3 hourly forecast from page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 5
+                }
+              ],
+              "location": "ForecastHideHourly.hide_hourly_forecast_from_page(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "3 hourly forecast",
+    "description": "",
+    "id": "3-hourly-forecast",
+    "keyword": "Feature",
+    "uri": "HourlyForecast.feature"
+  }
+]
