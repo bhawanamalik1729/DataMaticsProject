@@ -18,4 +18,8 @@ Deliverables :-
 Within given time of 4 Hrs, I work on first 3 requrement and automate them.   
 
 Steps:
-Download the project and 
+Download the project from Github as ZIP.   
+Unzip the downloaded project.
+Open The project from IDE using option like "Open Project From FileSystem"
+Go to Test Runner file and run it as JUNIT.
+
